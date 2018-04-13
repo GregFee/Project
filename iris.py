@@ -56,12 +56,21 @@ plt.xlabel("Value")
 plt.ylabel("Frequency")
 plt.show()
 
+#Histogram of Petal Length
+plt.hist(petallength)
+plt.title("Petal Length")
+plt.xlabel("Value")
+plt.ylabel("Frequency")
+plt.show()
+
 #Histogram of Petal Width
 plt.hist(petalwidth)
 plt.title("Petal Width")
 plt.xlabel("Value")
 plt.ylabel("Frequency")
 plt.show()
+
+
 
 
 
