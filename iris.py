@@ -25,6 +25,23 @@ print(sepalwidth.shape)
 print(petallength.shape)
 print(petalwidth.shape)
 
+#calculate mean sepal length
+meansepallength = np.mean(iris[:,0])
+#calculate mean sepal width
+meansepalwidth = np.mean(iris[:,1])
+#calculate mean petal length
+meanpetallength = np.mean(iris[:,2])
+#calculate mean petal width
+meanpetalwidth = np.mean(iris[:,3])
+#print result
+print("Mean Sepal Length is:", meansepallength)
+#print result
+print("Mean Sepal Width is:", meansepalwidth)
+#print result
+print("Mean Petal Length is:", meanpetallength)
+#print result
+print("Mean Petal Width is:", meanpetalwidth)
+
 
 
 
