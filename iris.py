@@ -1,4 +1,3 @@
-
 #Iris Data Project "Greg Feeley" 11-04-2018
 #https://en.wikipedia.org/wiki/Iris_flower_data_set
 
@@ -46,6 +45,13 @@ print("Mean Petal Width is:", meanpetalwidth)
 #Histogram of Sepal Length
 plt.hist(sepallength)
 plt.title("Sepal Length")
+plt.xlabel("Value")
+plt.ylabel("Frequency")
+plt.show()
+
+#Historgram of Sepal Width
+plt.hist(sepalwidth)
+plt.title("Sepal Width")
 plt.xlabel("Value")
 plt.ylabel("Frequency")
 plt.show()
