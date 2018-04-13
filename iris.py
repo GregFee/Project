@@ -70,6 +70,13 @@ plt.xlabel("Value")
 plt.ylabel("Frequency")
 plt.show()
 
+#scatter plot of Sepal Width and Length
+#Edited from https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib
+
+plt.scatter(sepallength, sepalwidth, color=['red', 'blue'])
+plt.title("Scatter Diagram of Sepal Length(Red) and Width(Blue)")
+plt.show()
+
 
 
 
