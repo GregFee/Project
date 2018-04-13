@@ -10,6 +10,15 @@ import matplotlib.pyplot as plt
 #read data file in numpy array
 iris = np.genfromtxt ('data/iris.csv', delimiter=",")
 
+#access first column of data sepal length
+sepallength = iris[:,0]
+#access second column of data sepal width
+sepalwidth = iris[:,1]
+#access third column of data petal length
+petallength = iris[:,2]
+#access fourth column of data petal width
+petalwidth = iris[:,3]
+
 
 
 
