@@ -7,7 +7,7 @@ import scipy
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#read data file in numpy array
+#read data file in numpy array edited from https://stackoverflow.com/questions/25614749/how-to-import-csv-file-as-numpy-array-in-python
 iris = np.genfromtxt ('data/iris.csv', delimiter=",")
 
 #access first column of data sepal length
