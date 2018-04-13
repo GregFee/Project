@@ -19,6 +19,12 @@ petallength = iris[:,2]
 #access fourth column of data petal width
 petalwidth = iris[:,3]
 
+#check for data instance sample size 
+print(sepallength.shape)
+print(sepalwidth.shape)
+print(petallength.shape)
+print(petalwidth.shape)
+
 
 
 
