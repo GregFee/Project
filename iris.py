@@ -1,5 +1,5 @@
 #Iris Data Project "Greg Feeley" 11-04-2018
-#https://en.wikipedia.org/wiki/Iris_flower_data_set
+#https://en.wikipedia.org/wiki/Iris_flower_data_set 
 
 #import libraries
 import numpy as np
@@ -52,6 +52,13 @@ plt.show()
 #Historgram of Sepal Width
 plt.hist(sepalwidth)
 plt.title("Sepal Width")
+plt.xlabel("Value")
+plt.ylabel("Frequency")
+plt.show()
+
+#Histogram of Petal Width
+plt.hist(petalwidth)
+plt.title("Petal Width")
 plt.xlabel("Value")
 plt.ylabel("Frequency")
 plt.show()
