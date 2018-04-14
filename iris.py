@@ -23,6 +23,7 @@ petalwidth = iris[:,3]
 print(sepallength.shape)
 print(sepalwidth.shape)
 print(petallength.shape)
+
 print(petalwidth.shape)
 
 #calculate mean sepal length
@@ -75,6 +76,21 @@ plt.show()
 
 plt.scatter(sepallength, sepalwidth, color=['red', 'blue'])
 plt.title("Scatter Diagram of Sepal Length(Red) and Width(Blue)")
+plt.show()
+
+#scatter plot of Petal Length and Width
+plt.scatter(petallength, petalwidth, color=['green', 'yellow'])
+plt.title("Scatter Diagram of Petal Length(Green) and Width(Yellow)")
+plt.show()
+
+#scatter plot of Petal Length and Sepal Length
+plt.scatter(petallength, sepallength, color=['green', 'blue'])
+plt.title("Scatter Diagram of Petal Length(Green) and Sepal Length(Blue)")
+plt.show()
+
+#scatter plot of Petal Width and Sepal Width
+plt.scatter(petalwidth, sepalwidth, color=['yellow', 'blue'])
+plt.title("Scatter Diagram of Petal Width(Yellow) and Sepal Width(Blue)")
 plt.show()
 
 
