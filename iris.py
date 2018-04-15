@@ -38,6 +38,18 @@ print("The Max of Petal Length is", maxpetallength)
 maxpetalwidth = np.max(iris[:,3])
 print("The Max of Petal Width is", maxpetalwidth)
 
+#Calculate minimum value of Sepal Length
+minsepallength = np.min(iris[:,0])
+print("The Minimum of Sepal Length is", minsepallength)
+#Calculate minimum value of Sepal Width
+minsepalwidth = np.min(iris[:,1])
+print("The Minimum of Sepal Width is", minsepalwidth)
+#Calculate minimum value of Petal Length
+minpetallength = np.min(iris[:,2])
+print("The Minimum of Petal Length is", minpetallength)
+#Calculate minimum value of Petal Width
+minpetalwidth = np.min(iris[:,3])
+print("The Minimum of Petal Width is", minpetalwidth)
 
 
 #calculate mean sepal length
