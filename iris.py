@@ -23,8 +23,22 @@ petalwidth = iris[:,3]
 print(sepallength.shape)
 print(sepalwidth.shape)
 print(petallength.shape)
-
 print(petalwidth.shape)
+
+#Calculate max value of Sepal Length
+maxsepallength = np.max(iris[:,0])
+print("The Max of Sepal Length is", maxsepallength)
+#Calculate max value of Sepal Width
+maxsepalwidth = np.max(iris[:,1])
+print("The Max of Sepal Width is", maxsepalwidth)
+#Calculate max value of Petal Length
+maxpetallength = np.max(iris[:,2])
+print("The Max of Petal Length is", maxpetallength)
+#Calculate max value of Petal Width
+maxpetalwidth = np.max(iris[:,3])
+print("The Max of Petal Width is", maxpetalwidth)
+
+
 
 #calculate mean sepal length
 meansepallength = np.mean(iris[:,0])
