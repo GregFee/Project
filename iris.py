@@ -127,6 +127,12 @@ plt.boxplot(data)
 plt.title("Boxplot of Petal and Sepal Length")
 plt.show()
 
+#boxplot showing distribution for petal width and sepal width
+data = np.concatenate((petalwidth, sepalwidth), 0)
+plt.boxplot(data)
+plt.title("Boxplot of Petal and Sepal Width")
+plt.show()
+
 
 
 
