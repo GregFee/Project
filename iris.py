@@ -71,6 +71,22 @@ print("Mean Petal Length is:", meanpetallength)
 #print result
 print("Mean Petal Width is:", meanpetalwidth)
 
+#calculate median
+mediansepallength = np.median(iris[:,0])
+print('The Median Sepal Length is:', mediansepallength)
+
+#calculate median
+mediansepalwidth = np.median(iris[:,1])
+print('The Median Sepal Width is:', mediansepalwidth)
+
+#calculate median
+medianpetallength = np.median(iris[:,2])
+print('The Median Petal Length is:', medianpetallength)
+
+#calculate median
+medianpetalwidth = np.median(iris[:,3])
+print('The Median Petal Width is:', mediansepalwidth)
+
 #Histogram of Sepal Length
 plt.hist(sepallength)
 plt.title("Sepal Length")
