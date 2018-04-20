@@ -126,6 +126,15 @@ plt.ylabel("Length in CM")
 plt.xlabel("Occurence")
 plt.show()
 
+#Plot data concurrently edited from https://pythonspot.com/matplotlib-legend/
+#Plot Sepal and Petal Length
+fig = plt.figure()
+ax = plt.subplot()
+ax.plot(sepallength, label='Sepal Length')
+ax.plot(petallength, label= 'Petal Length')
+ax.legend()
+plt.show()
+
 #scatter plot of Sepal Width and Length
 #Edited from https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib
 
