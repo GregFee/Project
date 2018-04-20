@@ -97,6 +97,28 @@ plt.xlabel("Value")
 plt.ylabel("Frequency")
 plt.show()
 
+#plot of petal length
+plt.plot(petallength)
+plt.title("Plot of Petal Length")
+plt.ylabel("Length in CM")
+plt.xlabel("Occurence")
+plt.show()
+
+
+#plot of petal width
+plt.plot(petalwidth)
+plt.title("Plot of Petal Width")
+plt.ylabel("Length in CM")
+plt.xlabel("Occurence")
+plt.show()
+
+#plot of sepal length
+plt.plot(sepallength)
+plt.title("Plot of Sepal Length")
+plt.ylabel("Length in CM")
+plt.xlabel("Occurence")
+plt.show()
+
 #scatter plot of Sepal Width and Length
 #Edited from https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib
 
