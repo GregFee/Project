@@ -1,6 +1,10 @@
 #Iris Data Project "Greg Feeley" 11-04-2018
 #https://en.wikipedia.org/wiki/Iris_flower_data_set 
 
+#check python version
+import sys
+print (sys.version)
+
 #import libraries
 import numpy as np
 import scipy
