@@ -9,7 +9,7 @@ Installing: *Download and install Anaconda to run this code. https://www.anacond
 
 Version used 3.6.3 |Anaconda, Inc.| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)]
 
-Download and save dataset from  http://archive.ics.uci.edu/ml/datasets/Iris.
+Download and save dataset from  http://archive.ics.uci.edu/ml/datasets/Iris. File to be saved as iris.csv into same folder as code is executed from
 
 
 Procedure:
