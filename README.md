@@ -2,9 +2,12 @@
 
 **Project - Programming and Scripting Iris Data Set**
 
-Introduction: This project will explore Fisher's Iris Data Set (1936)(1) This is an example of discriminate analysis and the data set conists of fifty samples from each of three Iris flowers including the setosa, virginica and versicolor type(1). There are 150 observations in the set. Performance on the data set is a standard bearer for new proposed machine learning(2). This project will analyse the data from 150 observations in relation to petal length/width and sepal length/width. 
+Introduction: This project will explore Fisher's Iris Data Set (1936)(1) This is an example of discriminate analysis and the data set conists of fifty samples from each of three Iris flowers including the setosa, virginica and versicolor type(1). There are 150 observations in the set. Performance on the data set is a standard bearer for new proposed machine learning(2). This project will analyse the data from 150 observations in relation to petal length/width and sepal length/width.
+
 
 Installing: *Download and install Anaconda to run this code. https://www.anaconda.com/
+
+Version used 3.6.3 |Anaconda, Inc.| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)]
 
 
 Procedure:
