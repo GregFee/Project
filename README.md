@@ -1,4 +1,4 @@
-# Project
+ # Project
 
 **Project - Programming and Scripting Iris Data Set**
 
@@ -17,7 +17,7 @@ Procedure:
 The project can be run from the iris.py file
 
 1. The maximun and minimum of each column of data was calculated.
-2. The mean for each column of data is calculated.
+2. The mean and median for each column of data is calculated.
 3. A historgram is presented for each measurement category.
 4. A simple plot was made for each data category.
 5. A plot will was made to show two data catergories running concurrently
