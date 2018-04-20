@@ -135,6 +135,14 @@ ax.plot(petallength, label= 'Petal Length')
 ax.legend()
 plt.show()
 
+#Plot Petal and Sepal Width
+fig = plt.figure()
+ax = plt.subplot()
+ax.plot(petalwidth, label= 'Petal Width')
+ax.plot(sepalwidth, label='Sepal Width')
+ax.legend()
+plt.show()
+
 #scatter plot of Sepal Width and Length
 #Edited from https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib
 
