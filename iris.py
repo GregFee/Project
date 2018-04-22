@@ -88,30 +88,30 @@ medianpetalwidth = np.median(iris[:,3])
 print('The Median Petal Width is:', mediansepalwidth)
 
 #Histogram of Sepal Length
-plt.hist(sepallength)
+plt.hist(sepallength, edgecolor='black')
 plt.title("Sepal Length")
-plt.xlabel("Value")
+plt.xlabel("Value in CM")
 plt.ylabel("Frequency")
 plt.show()
 
 #Historgram of Sepal Width
-plt.hist(sepalwidth)
+plt.hist(sepalwidth, edgecolor='black')
 plt.title("Sepal Width")
-plt.xlabel("Value")
+plt.xlabel("Value in CM")
 plt.ylabel("Frequency")
 plt.show()
 
 #Histogram of Petal Length
-plt.hist(petallength)
+plt.hist(petallength, edgecolor='black')
 plt.title("Petal Length")
-plt.xlabel("Value")
+plt.xlabel("Value in CM")
 plt.ylabel("Frequency")
 plt.show()
 
 #Histogram of Petal Width
-plt.hist(petalwidth)
+plt.hist(petalwidth, edgecolor='black')
 plt.title("Petal Width")
-plt.xlabel("Value")
+plt.xlabel("Value in CM")
 plt.ylabel("Frequency")
 plt.show()
 
