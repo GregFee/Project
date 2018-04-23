@@ -183,6 +183,33 @@ plt.scatter(petalwidth, sepalwidth, color=['yellow', 'blue'])
 plt.title("Scatter Diagram of Petal Width(Yellow) and Sepal Width(Blue)")
 plt.show()
 
+
+#Boxplot of Sepal Length
+plt.boxplot(sepallength)
+plt.title("Boxplot of Sepal Length")
+plt.ylabel("Measurement in CM")
+plt.show()
+
+#Boxplot of Sepal Width
+plt.boxplot(sepalwidth)
+plt.title("Boxplot of Sepal Width")
+plt.ylabel("Measurement in CM")
+plt.show()
+
+#Boxplot of Petal Length
+plt.boxplot(petallength)
+plt.title("Boxplot of Petal Length")
+plt.ylabel("Measurement in CM")
+plt.show()
+
+#Boxplot of Petal Width
+plt.boxplot(petalwidth)
+plt.title("Boxplot of Petal Width")
+plt.ylabel("Measurement in CM")
+plt.show()
+
+
+
 #boxplot of categories showing distribution edited from
 #https://matplotlib.org/examples/pylab_examples/boxplot_demo.html
 
