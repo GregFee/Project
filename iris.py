@@ -123,6 +123,7 @@ plt.xlabel("Occurence")
 plt.show()
 
 
+
 #plot of petal width
 plt.plot(petalwidth)
 plt.title("Plot of Petal Width")
@@ -150,6 +151,7 @@ fig = plt.figure()
 ax = plt.subplot()
 ax.plot(sepallength, label='Sepal Length')
 ax.plot(petallength, label= 'Petal Length')
+plt.ylabel("Measurement in CM")
 ax.legend()
 plt.show()
 
@@ -158,6 +160,7 @@ fig = plt.figure()
 ax = plt.subplot()
 ax.plot(petalwidth, label= 'Petal Width')
 ax.plot(sepalwidth, label='Sepal Width')
+plt.ylabel("Measurement in CM")
 ax.legend()
 plt.show()
 
@@ -210,7 +213,7 @@ plt.show()
 
 
 
-#boxplot of categories showing distribution edited from
+#boxplot of categories combined showing distribution edited from
 #https://matplotlib.org/examples/pylab_examples/boxplot_demo.html
 
 data = np.concatenate((petallength, sepallength), 0)
