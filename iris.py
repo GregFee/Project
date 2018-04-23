@@ -118,7 +118,7 @@ plt.show()
 #plot of petal length
 plt.plot(petallength)
 plt.title("Plot of Petal Length")
-plt.ylabel("Length in CM")
+plt.ylabel("Value in CM")
 plt.xlabel("Occurence")
 plt.show()
 
@@ -126,21 +126,21 @@ plt.show()
 #plot of petal width
 plt.plot(petalwidth)
 plt.title("Plot of Petal Width")
-plt.ylabel("Length in CM")
+plt.ylabel("Value in CM")
 plt.xlabel("Occurence")
 plt.show()
 
 #plot of sepal length
 plt.plot(sepallength)
 plt.title("Plot of Sepal Length")
-plt.ylabel("Length in CM")
+plt.ylabel("Value in CM")
 plt.xlabel("Occurence")
 plt.show()
 
 #plot of sepal width
 plt.plot(sepalwidth)
 plt.title("Plot of Sepal Width")
-plt.ylabel("Length in CM")
+plt.ylabel("Value in CM")
 plt.xlabel("Occurence")
 plt.show()
 
