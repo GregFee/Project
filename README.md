@@ -20,11 +20,12 @@ The project can be run from the iris.py file
 2. The mean and median for each column of data is calculated.
 3. A historgram is presented for each measurement category.
 4. A simple plot was made for each data category.
-5. A plot will was made to show two data catergories running concurrently
+5. Plots were constructed to show data catergories running concurrently
 6. Scatter plots are presented for the data cetergories. 
 7. Box Plots were created to show distribution.
 
-The summary of this project is the Summary file in this repository.
+**Iris Data Summary
+
 
 
 **References**
