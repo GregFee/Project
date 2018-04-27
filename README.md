@@ -24,7 +24,7 @@ The project can be run from the iris.py file
 6. Scatter plots are presented for the data cetergories. 
 7. Box Plots were created to show distribution.
 
-**Iris Data Summary
+**Iris Data Summary**
 
 
 
