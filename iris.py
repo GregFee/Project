@@ -176,6 +176,19 @@ plt.title("(2.7)")
 ax.legend()
 plt.show()
 
+#plot all catergories with filled polygons
+fig = plt.figure()
+ax = plt.subplot()
+ax.fill(sepallength, label= 'Sepal Length')
+ax.fill(petallength, label= 'Petal Legth')
+ax.fill(petalwidth, label= 'Petal Width')
+ax.fill(sepalwidth, label='Sepal Width')
+plt.ylabel("Measurement in CM")
+plt.xlabel("Occurence")
+plt.title("(2.8)")
+ax.legend()
+plt.show()
+
 #scatter plot of Sepal Width and Length
 #Edited from https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib
 
