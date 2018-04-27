@@ -117,7 +117,7 @@ plt.show()
 
 #plot of petal length
 plt.plot(petallength)
-plt.title("Plot of Petal Length")
+plt.title("(2.1) Plot of Petal Length")
 plt.ylabel("Value in CM")
 plt.xlabel("Occurence")
 plt.show()
@@ -126,21 +126,21 @@ plt.show()
 
 #plot of petal width
 plt.plot(petalwidth)
-plt.title("Plot of Petal Width")
+plt.title("(2.2) Plot of Petal Width")
 plt.ylabel("Value in CM")
 plt.xlabel("Occurence")
 plt.show()
 
 #plot of sepal length
 plt.plot(sepallength)
-plt.title("Plot of Sepal Length")
+plt.title("(2.3) Plot of Sepal Length")
 plt.ylabel("Value in CM")
 plt.xlabel("Occurence")
 plt.show()
 
 #plot of sepal width
 plt.plot(sepalwidth)
-plt.title("Plot of Sepal Width")
+plt.title("(2.4) Plot of Sepal Width")
 plt.ylabel("Value in CM")
 plt.xlabel("Occurence")
 plt.show()
@@ -197,46 +197,46 @@ plt.show()
 #Edited from https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib
 
 plt.scatter(sepallength, sepalwidth, color=['red', 'blue'])
-plt.title("Scatter Diagram of Sepal Length(Red) and Width(Blue)")
+plt.title("(2.9) Scatter Diagram of Sepal Length(Red) and Width(Blue)")
 plt.show()
 
 #scatter plot of Petal Length and Width
 plt.scatter(petallength, petalwidth, color=['green', 'yellow'])
-plt.title("Scatter Diagram of Petal Length(Green) and Width(Yellow)")
+plt.title("(2.10) Scatter Diagram of Petal Length(Green) and Width(Yellow)")
 plt.show()
 
 #scatter plot of Petal Length and Sepal Length
 plt.scatter(petallength, sepallength, color=['green', 'blue'])
-plt.title("Scatter Diagram of Petal Length(Green) and Sepal Length(Blue)")
+plt.title("(2.11) Scatter Diagram of Petal Length(Green) and Sepal Length(Blue)")
 plt.show()
 
 #scatter plot of Petal Width and Sepal Width
 plt.scatter(petalwidth, sepalwidth, color=['yellow', 'blue'])
-plt.title("Scatter Diagram of Petal Width(Yellow) and Sepal Width(Blue)")
+plt.title("(2.12) Scatter Diagram of Petal Width(Yellow) and Sepal Width(Blue)")
 plt.show()
 
 
 #Boxplot of Sepal Length
 plt.boxplot(sepallength)
-plt.title("Boxplot of Sepal Length")
+plt.title("(3.1) Boxplot of Sepal Length")
 plt.ylabel("Measurement in CM")
 plt.show()
 
 #Boxplot of Sepal Width
 plt.boxplot(sepalwidth)
-plt.title("Boxplot of Sepal Width")
+plt.title("(3.2) Boxplot of Sepal Width")
 plt.ylabel("Measurement in CM")
 plt.show()
 
 #Boxplot of Petal Length
 plt.boxplot(petallength)
-plt.title("Boxplot of Petal Length")
+plt.title("(3.3) Boxplot of Petal Length")
 plt.ylabel("Measurement in CM")
 plt.show()
 
 #Boxplot of Petal Width
 plt.boxplot(petalwidth)
-plt.title("Boxplot of Petal Width")
+plt.title("(3.4) Boxplot of Petal Width")
 plt.ylabel("Measurement in CM")
 plt.show()
 
@@ -247,13 +247,13 @@ plt.show()
 
 data = np.concatenate((petallength, sepallength), 0)
 plt.boxplot(data)
-plt.title("Boxplot of Petal and Sepal Length")
+plt.title("(3.5) Boxplot of Petal and Sepal Length")
 plt.show()
 
 #boxplot showing distribution for petal width and sepal width
 data = np.concatenate((petalwidth, sepalwidth), 0)
 plt.boxplot(data)
-plt.title("Boxplot of Petal and Sepal Width")
+plt.title("(3.6) Boxplot of Petal and Sepal Width")
 plt.show()
 
 
