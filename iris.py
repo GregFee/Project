@@ -89,28 +89,28 @@ print('The Median Petal Width is:', mediansepalwidth)
 
 #Histogram of Sepal Length
 plt.hist(sepallength, edgecolor='black')
-plt.title("Sepal Length")
+plt.title("(1.1) Sepal Length")
 plt.xlabel("Value in CM")
 plt.ylabel("Frequency")
 plt.show()
 
 #Historgram of Sepal Width
 plt.hist(sepalwidth, edgecolor='black')
-plt.title("Sepal Width")
+plt.title("(1.2) Sepal Width")
 plt.xlabel("Value in CM")
 plt.ylabel("Frequency")
 plt.show()
 
 #Histogram of Petal Length
 plt.hist(petallength, edgecolor='black')
-plt.title("Petal Length")
+plt.title("(1.3) Petal Length")
 plt.xlabel("Value in CM")
 plt.ylabel("Frequency")
 plt.show()
 
 #Histogram of Petal Width
 plt.hist(petalwidth, edgecolor='black')
-plt.title("Petal Width")
+plt.title("(1.4) Petal Width")
 plt.xlabel("Value in CM")
 plt.ylabel("Frequency")
 plt.show()
@@ -152,6 +152,8 @@ ax = plt.subplot()
 ax.plot(sepallength, label='Sepal Length')
 ax.plot(petallength, label= 'Petal Length')
 plt.ylabel("Measurement in CM")
+plt.xlabel("Occurence")
+plt.title("(2.5) Plot of Sepal and Petal Length")
 ax.legend()
 plt.show()
 
@@ -161,6 +163,8 @@ ax = plt.subplot()
 ax.plot(petalwidth, label= 'Petal Width')
 ax.plot(sepalwidth, label='Sepal Width')
 plt.ylabel("Measurement in CM")
+plt.xlabel("Occurence")
+plt.title("(2.6) Plot of Sepal and Petal Width")
 ax.legend()
 plt.show()
 
