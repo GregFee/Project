@@ -164,6 +164,18 @@ plt.ylabel("Measurement in CM")
 ax.legend()
 plt.show()
 
+#Plot all catergories
+fig = plt.figure()
+ax = plt.subplot()
+ax.plot(sepallength, label= 'Sepal Length')
+ax.plot(petallength, label= 'Petal Legth')
+ax.plot(petalwidth, label= 'Petal Width')
+ax.plot(sepalwidth, label='Sepal Width')
+plt.ylabel("Measurement in CM")
+plt.title("(2.7)")
+ax.legend()
+plt.show()
+
 #scatter plot of Sepal Width and Length
 #Edited from https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib
 
