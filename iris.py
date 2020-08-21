@@ -196,23 +196,13 @@ plt.show()
 #scatter plot of Sepal Width and Length
 #Edited from https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib
 
-plt.scatter(sepallength, sepalwidth, color=['red', 'blue'])
-plt.title("(2.9) Scatter Diagram of Sepal Length(Red) and Width(Blue)")
-plt.show()
-
-#scatter plot of Petal Length and Width
-plt.scatter(petallength, petalwidth, color=['green', 'yellow'])
-plt.title("(2.10) Scatter Diagram of Petal Length(Green) and Width(Yellow)")
-plt.show()
-
-#scatter plot of Petal Length and Sepal Length
-plt.scatter(petallength, sepallength, color=['green', 'blue'])
-plt.title("(2.11) Scatter Diagram of Petal Length(Green) and Sepal Length(Blue)")
-plt.show()
-
-#scatter plot of Petal Width and Sepal Width
-plt.scatter(petalwidth, sepalwidth, color=['yellow', 'blue'])
-plt.title("(2.12) Scatter Diagram of Petal Width(Yellow) and Sepal Width(Blue)")
+x = sepallength
+y = sepalwidth
+plt.scatter(x, y, c='red')
+x = petallength
+y = petalwidth
+plt.scatter(x, y, c='blue')
+plt.title("(2.9) Scatter Diagram Sepals(Red) & Petals(Blue)")
 plt.show()
 
 
