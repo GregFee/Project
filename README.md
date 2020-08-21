@@ -9,7 +9,7 @@ Installing: *Download and install Anaconda to run this code. https://www.anacond
 
 Version used 3.6.3 |Anaconda, Inc.| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)]
 
-Download and save dataset from  http://archive.ics.uci.edu/ml/datasets/Iris. File to be saved as iris.csv into same folder as code is executed from
+More informationfrom  http://archive.ics.uci.edu/ml/datasets/Iris. The data is stored in this repository as "flower.csv".
 
 
 Procedure:
@@ -21,7 +21,7 @@ The project can be run from the iris.py file
 3. A historgram is presented for each measurement category.
 4. A simple plot was made for each data category.
 5. Plots were constructed to show data catergories running concurrently
-6. Scatter plots are presented for the data catergories. 
+6. A Scatter plot is presented for the data catergories. 
 7. Box Plots were created to show distribution.
 
 **Iris Data Summary**
